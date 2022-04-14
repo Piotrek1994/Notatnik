@@ -82,7 +82,7 @@ body {
 
 
 .note-panel {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -90,7 +90,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    pad: 40px 0;
+    padding: 40px 0;
     width: 600px;
     background-color: #fff;
     box-shadow: 0 0 10px black;
